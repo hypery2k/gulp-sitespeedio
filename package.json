@@ -32,14 +32,18 @@
     "object-assign": "~2.0.0",
     "lodash.merge": "4.6.0",
     "sitespeed.io": "5.0.0",
-    "temporary": "0.0.8"
+    "temporary": "0.0.8",
+    "snyk": "^1.69.7"
   },
   "devDependencies": {
     "gulp": "~3.8.11"
   },
   "main": "./tasks/sitespeed.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
-  "license": "Apache 2.0"
+  "license": "Apache 2.0",
+  "snyk": true
 }
