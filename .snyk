@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.10.1
+version: v1.10.2
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -10,3 +10,7 @@ patch:
         patched: '2018-02-18T17:44:18.472Z'
     - sitespeed.io > webcoach > browsertime > moment:
         patched: '2018-02-18T17:44:18.472Z'
+    - sitespeed.io > browsertime > chrome-har > moment:
+        patched: '2018-03-12T03:08:50.110Z'
+    - sitespeed.io > webcoach > browsertime > chrome-har > moment:
+        patched: '2018-03-12T03:08:50.110Z'
