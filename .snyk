@@ -14,3 +14,6 @@ patch:
         patched: '2018-03-12T03:08:50.110Z'
     - sitespeed.io > webcoach > browsertime > chrome-har > moment:
         patched: '2018-03-12T03:08:50.110Z'
+  'npm:debug:20170905':
+    - sitespeed.io > webpagetest > mocha > debug:
+        patched: '2018-03-12T21:26:41.673Z'
