@@ -33,7 +33,7 @@
     "lodash.merge": "4.6.0",
     "sitespeed.io": "8.0.0",
     "temporary": "0.0.8",
-    "snyk": "^1.70.0"
+    "snyk": "^1.88.0"
   },
   "devDependencies": {
     "gulp": "~3.8.11"
@@ -42,7 +42,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "npm run snyk-protect",
+    "prepare": "npm run snyk-protect"
   },
   "license": "Apache 2.0",
   "snyk": true
