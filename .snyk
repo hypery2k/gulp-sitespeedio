@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.10.2
+version: v1.12.0
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -17,3 +17,12 @@ patch:
   'npm:debug:20170905':
     - sitespeed.io > webpagetest > mocha > debug:
         patched: '2018-03-12T21:26:41.673Z'
+  'npm:tunnel-agent:20170305':
+    - sitespeed.io > browsertime > alto-saxophone > download > caw > tunnel-agent:
+        patched: '2018-10-24T04:31:30.866Z'
+    - sitespeed.io > browsertime > soprano-saxophone > download > caw > tunnel-agent:
+        patched: '2018-10-24T04:31:30.866Z'
+    - sitespeed.io > webcoach > browsertime > alto-saxophone > download > caw > tunnel-agent:
+        patched: '2018-10-24T04:31:30.866Z'
+    - sitespeed.io > webcoach > browsertime > soprano-saxophone > download > caw > tunnel-agent:
+        patched: '2018-10-24T04:31:30.866Z'
