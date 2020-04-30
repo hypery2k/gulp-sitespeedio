@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.10.2
+version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -17,3 +17,14 @@ patch:
   'npm:debug:20170905':
     - sitespeed.io > webpagetest > mocha > debug:
         patched: '2018-03-12T21:26:41.673Z'
+  SNYK-JS-LODASH-567746:
+    - sitespeed.io > junit-report-builder > lodash:
+        patched: '2020-04-30T21:34:36.152Z'
+    - sitespeed.io > simplecrawler > async > lodash:
+        patched: '2020-04-30T21:34:36.152Z'
+    - sitespeed.io > pug > pug-code-gen > constantinople > babel-types > lodash:
+        patched: '2020-04-30T21:34:36.152Z'
+    - sitespeed.io > pug > pug-filters > constantinople > babel-types > lodash:
+        patched: '2020-04-30T21:34:36.152Z'
+    - sitespeed.io > pug > pug-code-gen > pug-attrs > constantinople > babel-types > lodash:
+        patched: '2020-04-30T21:34:36.152Z'
